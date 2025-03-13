@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // fungsi menghitung luas persegi panjang
+        function luaspersegipanjang(panjang, lebar){
+            return panjang * lebar;
+        }
+        
+        // fungsi menghitung luas bujur sangkar
+        function luasbujursangkar(sisi){
+            return sisi * sisi;
+        }
+        // fungsi menghitung luas segitiga
+        function luassegitiga(alas, tinggi){
+            return 0.5 * alas * tinggi;
+        }
+        // variabel
+        let panjang = 8;
+        let lebar = 7;
+        let sisi = 9;
+        let alas = 6;
+        let tinggi= 11;
+        //menampilkkan hasil perhitungan di halaman web
+        document.write("luas persegi panjang " + "= " + luaspersegipanjang(panjang, lebar));
+        document.write("luas bujur sangkar " + "= " + luasbujursangkar(sisi));
+        document.write("luas segitiga " + "= " + luassegitiga(alas, tinggi));
+    </script>
+</body>
+</html>
